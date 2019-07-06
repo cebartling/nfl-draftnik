@@ -2,4 +2,4 @@
 
 - Start engine: `docker-compose up -d`
 - Stop engine: `docker-compose down`
-- Start the Hasura console: `cd hasura && hasura console`
+- Start the Hasura console: `cd console && hasura console`
