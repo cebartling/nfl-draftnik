@@ -1,0 +1,6 @@
+- args:
+    sql: "\n           alter table \"public\".\"mock_draft_positions\"\n           add
+      constraint \"mock_draft_positions_team_id_fkey\" \n           foreign key (\"team_id\")
+      \n           references \"public\".\"teams\"\n           (\"id\") on update
+      restrict on delete restrict;\n      "
+  type: run_sql

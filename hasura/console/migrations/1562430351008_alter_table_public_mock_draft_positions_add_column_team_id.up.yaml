@@ -1,0 +1,4 @@
+- args:
+    sql: ALTER TABLE "public"."mock_draft_positions" ADD COLUMN "team_id" uuid NOT
+      NULL
+  type: run_sql
