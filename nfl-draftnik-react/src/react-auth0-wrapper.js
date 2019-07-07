@@ -11,9 +11,9 @@ export const Auth0Provider = ({
                                   onRedirectCallback = DEFAULT_REDIRECT_CALLBACK,
                                   ...initOptions
                               }) => {
-    const [isAuthenticated, setIsAuthenticated] = useState(false);
-    const [user, setUser] = useState(undefined);
-    const [auth0Client, setAuth0] = useState(undefined);
+    const [isAuthenticated, setIsAuthenticated] = useState();
+    const [user, setUser] = useState();
+    const [auth0Client, setAuth0] = useState();
     const [loading, setLoading] = useState(true);
     const [popupOpen, setPopupOpen] = useState(false);
 

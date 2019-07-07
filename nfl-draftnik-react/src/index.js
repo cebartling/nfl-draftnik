@@ -18,11 +18,11 @@ const onRedirectCallback = appState => {
 };
 
 const url = process.env.REACT_APP_HASURA_GRAPHQL_URL;
-console.log('Hasura URL', url);
+// console.log('Hasura URL', url);
 const auth0Domain = process.env.REACT_APP_AUTH0_DOMAIN;
-console.log('Auth0 domain', auth0Domain);
+// console.log('Auth0 domain', auth0Domain);
 const auth0ClientId = process.env.REACT_APP_AUTH0_CLIENT_ID;
-console.log('Auth0 client ID', auth0ClientId);
+// console.log('Auth0 client ID', auth0ClientId);
 
 const client = new ApolloClient({uri: url});
 
